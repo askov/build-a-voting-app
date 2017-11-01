@@ -1,0 +1,39 @@
+@import "./theme"
+
+.form-wrapper
+  width 90%
+  min-width 300px
+  max-width 400px
+  margin 3em auto
+
+.form-line
+  margin-bottom 10px
+  line-height 43px
+  display flex
+  justify-content center
+  flex-direction row
+
+.form-line > i
+  color $signup-color
+  line-height 43px
+  width 30px
+
+input
+  background-color transparent
+  height 40px
+
+input[type="text"], input[type="password"]
+  flex 1
+  border none
+  padding-left 5px
+  border-bottom 1px solid $signup-color
+
+input[type="submit"]
+  margin-top 2em
+  font-weight bold
+  display block
+  cursor pointer
+  border none
+  width 100%
+  background-color $signup-color
+  color white
